@@ -2,8 +2,8 @@ services:
   github-actions-runner:
     image: evl8/esd-github-actions-runner
     environment:
-      - URL=<put the extracted url here>
-      - TOKEN=<put the extracted token here>
+      - URL=https://github.com/hiphof/esd-github-actions-assignment
+      - TOKEN=AIOIVSLGC34AV6IPTYBYPDLHJWPOW
     networks:
       - esd
   nexus:
